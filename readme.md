@@ -2,7 +2,8 @@
 
 ## Features:
 * DOM
-* css css animation
+* js
+* css animation
 * flexbox
 * responsive
 * hippo(s)
