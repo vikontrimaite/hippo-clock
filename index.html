@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's the time now?</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <h1>The time now is...</h1>
+
+    <p class="button" onclick="showDate()">Show the time!</p>
+
+    <p class="hide" id="clickableHippo">Have you tried to click on HIPPO?</p>
+
+    <div id="dateCont" class="hide" onmouseover="getTheDate()">
+        <div id="year" class="date">2019 year</div>
+        <div id="month" class="date">12 month</div>
+        <div id="day" class="date">14 day</div>
+        <div id="hour" class="date">23 hour</div>
+        <div id="minutes" class="date">23 mins</div>
+        <div id="seconds" class="date">13 sec</div>
+        <div id="milisecs" class="date">11 milisec</div>
+    </div>
+
+    <p class="hide" id="tipParagr">Hover over the date to refresh it!</p>
+
+    <img src="./img/hippo.png" alt="This is hippo!" id="hippo" onclick="moreImg()">
+
+<div id="hippoDiv">
+    <p id="hiddenButton"
+    class="hide" onclick="hideDate()">I don't want to see the time anymore!</p>
+</div>
+    
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
