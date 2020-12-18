@@ -1,4 +1,4 @@
-# Hippo clock!
+# Hippo clock!!
 
 ## Features:
 * DOM
